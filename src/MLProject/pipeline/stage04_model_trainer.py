@@ -18,7 +18,7 @@ class ModelTrainerTrainingPipeline:
 
 if __name__ == "__main__":
     try:
-        logger.info(f">>>>>>{STAGE_NAME}: Starting Modeal Training Process<<<<<<")
+        logger.info(f">>>>>>{STAGE_NAME}: Starting Model Training Process<<<<<<")
         obj = ModelTrainerTrainingPipeline()
         obj.main()
         logger.info(f">>>>>>{STAGE_NAME}: Model training process completed<<<<<<")

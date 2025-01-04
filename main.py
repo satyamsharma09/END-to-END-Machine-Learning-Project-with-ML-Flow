@@ -3,6 +3,7 @@ from MLProject.pipeline.stage01_data_ingestion import DataIngestionTrainingPipel
 from MLProject.pipeline.stage02_data_validation import DataValidationTrainingPipeline
 from MLProject.pipeline.stage03_data_transformation import DataTransformationTrainingPipeline
 from MLProject.pipeline.stage04_model_trainer import ModelTrainerTrainingPipeline
+from MLProject.pipeline.stage05_data_evaluation import ModelEvaluationPipeline
 
 
 STAGE_NAME = "Data Ingestion stage"
@@ -43,6 +44,19 @@ try:
     logger.info(f">>>>>> stage (STAGE_NAME) started <<<<<<")
     modeltrainer = ModelTrainerTrainingPipeline()
     modeltrainer.main()
+    logger.info(f">>>>>> stage (STAGE_NAME) completed <<<<<<")
+except Exception as e:
+    logger. exception (e)
+    raise e
+
+logger.info("This is an info message")
+
+
+STAGE_NAME = "Model Evaluation Stage"
+try:
+    logger.info(f">>>>>> stage (STAGE_NAME) started <<<<<<")
+    modelevaluation = ModelEvaluationPipeline()
+    modelevaluation.main()
     logger.info(f">>>>>> stage (STAGE_NAME) completed <<<<<<")
 except Exception as e:
     logger. exception (e)

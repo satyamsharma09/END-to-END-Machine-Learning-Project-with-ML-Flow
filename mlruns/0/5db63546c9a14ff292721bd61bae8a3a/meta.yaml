@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/satyam/Desktop/END-to-END-Machine-Learning-Project-with-ML-Flow/mlruns/0/5db63546c9a14ff292721bd61bae8a3a/artifacts
+end_time: 1735953561155
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5db63546c9a14ff292721bd61bae8a3a
+run_name: bittersweet-crab-608
+run_uuid: 5db63546c9a14ff292721bd61bae8a3a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735953559053
+status: 3
+tags: []
+user_id: satyam
