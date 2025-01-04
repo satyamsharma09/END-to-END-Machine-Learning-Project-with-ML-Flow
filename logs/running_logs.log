@@ -318,3 +318,69 @@ Source-Age: 135
 [2025-01-04 04:49:25,447: {INFO: data_transformation: (400, 12)]
 [2025-01-04 04:49:25,447: {INFO: main: >>>>>> stage (STAGE_NAME) completed <<<<<<]
 [2025-01-04 04:49:25,447: {INFO: main: This is an info message]
+[2025-01-04 04:57:19,532: {INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-04 04:57:39,463: {INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-01-04 04:57:39,465: {INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-04 04:57:39,467: {INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-04 04:57:39,469: {INFO: common: created directory at: artifacts]
+[2025-01-04 04:57:39,470: {INFO: common: created directory at: artifacts/model_trainer]
+[2025-01-04 05:30:55,948: {INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-04 05:30:56,602: {INFO: main: >>>>>> stage (STAGE_NAME) started <<<<<<]
+[2025-01-04 05:30:56,604: {INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-01-04 05:30:56,604: {INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-04 05:30:56,605: {INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-04 05:30:56,605: {INFO: common: created directory at: artifacts]
+[2025-01-04 05:30:56,605: {INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-04 05:30:57,605: {INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 90AE:169BAB:9B7071:E4D64B:67784B7F
+Accept-Ranges: bytes
+Date: Sat, 04 Jan 2025 00:00:57 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100034-HYD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1735948857.279075,VS0,VE247
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: a1cfeef2ef34d50a0b9a38eb724546f3a2ec4787
+Expires: Sat, 04 Jan 2025 00:05:57 GMT
+Source-Age: 0
+
+]
+[2025-01-04 05:30:57,609: {INFO: main: >>>>>> stage (STAGE_NAME) completed <<<<<<]
+[2025-01-04 05:30:57,609: {INFO: main: >>>>>> stage (STAGE_NAME) started <<<<<<]
+[2025-01-04 05:30:57,612: {INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-01-04 05:30:57,613: {INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-04 05:30:57,615: {INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-04 05:30:57,615: {INFO: common: created directory at: artifacts]
+[2025-01-04 05:30:57,615: {INFO: common: created directory at: artifacts/data_validation]
+[2025-01-04 05:30:57,630: {INFO: main: >>>>>> stage (STAGE_NAME) completed <<<<<<]
+[2025-01-04 05:30:57,630: {INFO: main: >>>>>> stage (STAGE_NAME) started <<<<<<]
+[2025-01-04 05:30:57,632: {INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-01-04 05:30:57,633: {INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-04 05:30:57,634: {INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-04 05:30:57,634: {INFO: common: created directory at: artifacts]
+[2025-01-04 05:30:57,635: {INFO: common: created directory at: artifacts/data_transformation]
+[2025-01-04 05:30:57,651: {INFO: data_transformation: Splited data into training and test sets]
+[2025-01-04 05:30:57,651: {INFO: data_transformation: (1199, 12)]
+[2025-01-04 05:30:57,651: {INFO: data_transformation: (400, 12)]
+[2025-01-04 05:30:57,651: {INFO: main: >>>>>> stage (STAGE_NAME) completed <<<<<<]
+[2025-01-04 05:30:57,651: {INFO: main: >>>>>> stage (STAGE_NAME) started <<<<<<]
+[2025-01-04 05:30:57,653: {INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-01-04 05:30:57,653: {INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-04 05:30:57,654: {INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-01-04 05:30:57,654: {INFO: common: created directory at: artifacts]
+[2025-01-04 05:30:57,655: {INFO: common: created directory at: artifacts/model_trainer]
+[2025-01-04 05:30:57,663: {INFO: main: >>>>>> stage (STAGE_NAME) completed <<<<<<]
+[2025-01-04 05:30:57,663: {INFO: main: This is an info message]
